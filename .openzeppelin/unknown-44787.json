@@ -1,0 +1,201 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xc2E6c44e9eA569C6D1EfF7Ce0229Fb86a4A1d2d1",
+    "txHash": "0xb517ae6d0a7151308966e265aef2460490cc212987414a799db950e160c64d07"
+  },
+  "proxies": [
+    {
+      "address": "0x1d2C3a432FBa847d469518C72d69425d7d8BffE0",
+      "txHash": "0x04492e81d823fac08b283194db5fdebcc9c379fb08415e4bd09a9cae714d3120",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x06436Fd08525F030966886b26f84d56B61045A49",
+      "txHash": "0xa48035fddbd30c0f671616a6056fac82775cd175413cddfc1313987bb58d692b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x5f416fB4441244910820172d29AdEB5CEba1C2d1",
+      "txHash": "0x722639bc49d4c3223ddf85afd93c4959a3b4656c10fbcd2f5a68a81ec8b36c4a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xd15100A570158b7EEbE196405D8a456d56807F2d",
+      "txHash": "0x630ddb78e8479499ad81035e91dc864d345af1891a647e018120ecfa454b8eb8",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x5A8Ab916363c1904464b22b898a88537e0341AE8",
+      "txHash": "0x22b2a0ca86cb8080bab226222dfc0883ebe450fbb1bb387856613a026935c922",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x75b8BFb3Fb2bC00ACc2A1dfaedD46d2b1EbE067F",
+      "txHash": "0xbb065cea830c341e02614de91481380a4b55b7bc1e709d08de3ca135ae0cb63d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x058040B41348b785Dc2D29851a12b8C97538bca1",
+      "txHash": "0xab231ebe697b5aebc634800c11c54d25a194206a5c4874103e69246cfeb4200b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xaefB1366fc60a7cfdAb4600fB301A434F045d735",
+      "txHash": "0xe1d2b7e06db17848ff3ca6d0908c3e21d39dbfcc362c49636038cfb4dc77ef57",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2744e5Bb959A8222fA528404C5A1430FC4813e29",
+      "txHash": "0xc78def26d2adfca2a2850c6973ac8e6d686debab1052393d19e63f4c8c57adf3",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x03F71918065cD0D6Ce0F1ed5b8242C25C249a83E",
+      "txHash": "0xc0e244049ef1f9d7d41ad206cef6fb72c917c2bd7410fcb6a1fa0fd6218d6c2b",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "ca6de6fbd6887c0364596d6ac9c67803a03c7752662885e09210868b86bc06be": {
+      "address": "0xeE5Dc1234Cdb585F54cc51ec08d67f6f43d0183B",
+      "txHash": "0x8c2748deb3fdc554b8d5b030194432df87da2b3f717e1c26faea7054927e57a5",
+      "layout": {
+        "storage": [
+          {
+            "label": "greeting",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "Greeter",
+            "src": "contracts/Greeter.sol:6"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "6998a6f5dae61df6ec7db4a14632893a4d3ec83c5de5784fc94d11b0e7fac89d": {
+      "address": "0x961676f2bb303211600fC46E93554D9E96D31319",
+      "txHash": "0x02af58820c54991e3a99875cf5afcdb9480e9d53b2d6d231e259c3a562e3d9e5",
+      "layout": {
+        "storage": [
+          {
+            "label": "greeting",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "Greeter",
+            "src": "contracts/Greeter.sol:6"
+          },
+          {
+            "label": "counter",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "GreeterV2",
+            "src": "contracts/GreeterV2.sol:8"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "c9e09bd673ff86e06127bd9177a9dc3aa328603ca61b3173298d66c2c7ac43c3": {
+      "address": "0xF5474A7A3F069c15769A85fF226BBa105D67FC4C",
+      "txHash": "0xc1c28c330d56f30cfd4dc5e33d8930889bccdb877341439b0ddb321ee101ffef",
+      "layout": {
+        "storage": [
+          {
+            "label": "greeting",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "Greeter",
+            "src": "contracts/Greeter.sol:6"
+          },
+          {
+            "label": "counter",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "GreeterV2",
+            "src": "contracts/GreeterV2.sol:8"
+          },
+          {
+            "label": "name",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_string_storage",
+            "contract": "GreeterV3",
+            "src": "contracts/GreeterV3.sol:8"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "27d8935b23cb05a8d4319252b8b34c6bc0081ceb3f9876a05938f2819c88fd26": {
+      "address": "0x8843F73D7c761D29649d4AC15Ee9501de12981c3",
+      "txHash": "0x26089d1d763b5f930289c252e43ba7fa7cdaba6ea4b651535c0f3f0e15fdd27b",
+      "layout": {
+        "storage": [
+          {
+            "label": "greeting",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "Greeter",
+            "src": "contracts/Greeter.sol:6"
+          },
+          {
+            "label": "counter",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "GreeterV2",
+            "src": "contracts/GreeterV2.sol:8"
+          },
+          {
+            "label": "name",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_string_storage",
+            "contract": "GreeterV4",
+            "src": "contracts/GreeterV4.sol:8"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}

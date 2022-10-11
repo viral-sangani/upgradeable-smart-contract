@@ -1,0 +1,206 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xc5a5C42992dECbae36851359345FE25997F5C42d",
+    "txHash": "0x87d1f2fef691ffc3899f862c1bbb71fb9b1732a9f39619227b4f417bc5d58008"
+  },
+  "proxies": [
+    {
+      "address": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+      "txHash": "0xd63e0df859f07d64b97315a075d00d5fc18d3c7e991aed78bf293bc5e88534aa",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xc5a5C42992dECbae36851359345FE25997F5C42d",
+      "txHash": "0x6b0645cd2f1b546cc5d2e21266c2b55ba986858215fb47d4fe1308fe22169a8e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xa82fF9aFd8f496c3d6ac40E2a0F282E47488CFc9",
+      "txHash": "0x14cb7786a35c06117f59783217db180764b4271ff7312bcf53c33d5d48d7d1f0",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6",
+      "txHash": "0xfbe7e022ce0d7b4e0bf0aa0711b6198b4094c17abe6e8d33578ef90e99fc1f85",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+      "txHash": "0x5f8161af91c09b4047af1ce80c322d261b6138bfedaa1c68f73e0645d0e2e092",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9A676e781A523b5d0C0e43731313A708CB607508",
+      "txHash": "0xada8d5d376532812567d64466deb20e7f3839ad19c5f65bd80ab7d9e71918392",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9A9f2CCfdE556A7E9Ff0848998Aa4a0CFD8863AE",
+      "txHash": "0xac25d6f19ca7e56470846d738b8287f42d7084ab6120a399fe9642781c60ad13",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
+      "txHash": "0x72de70d78cdf1c5f99b9f003111586bc8cf3ca408fb9c47566281f5d9d26e695",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x4ed7c70F96B99c776995fB64377f0d4aB3B0e1C1",
+      "txHash": "0x62d95fd3559584a6b6bbd3d41f8b34acd6f7d462f4f1187ec5fc40be42fe81f5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+      "txHash": "0xf72ef2c784ea45ffaaa6cfe1caa6e16dfc0810b5af73bb74451f92d032939fe8",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x67d269191c92Caf3cD7723F116c85e6E9bf55933",
+      "txHash": "0x362fe8c75c7b5f0c34cac65a6cff6b9e0fae89d05bce13ae1615ed1ff2922c93",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "ca6de6fbd6887c0364596d6ac9c67803a03c7752662885e09210868b86bc06be": {
+      "address": "0x09635F643e140090A9A8Dcd712eD6285858ceBef",
+      "txHash": "0x5ae69ec4dd9deea8ac10de11224c8880df03eeae2a7d7694cfd8a64564510281",
+      "layout": {
+        "storage": [
+          {
+            "label": "greeting",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "Greeter",
+            "src": "contracts/Greeter.sol:6"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "6998a6f5dae61df6ec7db4a14632893a4d3ec83c5de5784fc94d11b0e7fac89d": {
+      "address": "0xE6E340D132b5f46d1e472DebcD681B2aBc16e57E",
+      "txHash": "0x320ce36fec1e0e5490b648ae2262e7336c4163e3651027682079c08a784943cb",
+      "layout": {
+        "storage": [
+          {
+            "label": "greeting",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "Greeter",
+            "src": "contracts/Greeter.sol:6"
+          },
+          {
+            "label": "counter",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "GreeterV2",
+            "src": "contracts/GreeterV2.sol:8"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "27d8935b23cb05a8d4319252b8b34c6bc0081ceb3f9876a05938f2819c88fd26": {
+      "address": "0xa82fF9aFd8f496c3d6ac40E2a0F282E47488CFc9",
+      "txHash": "0x8afd34ed7b2e377ff15eefc8129eecdcdc853cac7c503840463c014d993e3131",
+      "layout": {
+        "storage": [
+          {
+            "label": "greeting",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "Greeter",
+            "src": "contracts/Greeter.sol:6"
+          },
+          {
+            "label": "counter",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "GreeterV2",
+            "src": "contracts/GreeterV2.sol:8"
+          },
+          {
+            "label": "name",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_string_storage",
+            "contract": "GreeterV4",
+            "src": "contracts/GreeterV4.sol:8"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "c9e09bd673ff86e06127bd9177a9dc3aa328603ca61b3173298d66c2c7ac43c3": {
+      "address": "0x84eA74d481Ee0A5332c457a4d796187F6Ba67fEB",
+      "txHash": "0x32f7755666db1175e6999b7780c0d22734601ea9821660f84052cdce87d6c4bf",
+      "layout": {
+        "storage": [
+          {
+            "label": "greeting",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage",
+            "contract": "Greeter",
+            "src": "contracts/Greeter.sol:6"
+          },
+          {
+            "label": "counter",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "GreeterV2",
+            "src": "contracts/GreeterV2.sol:8"
+          },
+          {
+            "label": "name",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_string_storage",
+            "contract": "GreeterV3",
+            "src": "contracts/GreeterV3.sol:8"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
